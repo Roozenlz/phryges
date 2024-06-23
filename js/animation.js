@@ -19,7 +19,7 @@ tl1
 
 let intro = document.getElementById('intro')
 setTimeout(() => {
-    intro.style.display = 'none'
+    intro && (intro.style.display = 'none')
 }, [5000])
 
 let tl2 = gsap.timeline({})
